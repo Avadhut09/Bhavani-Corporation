@@ -1795,10 +1795,6 @@ textarea {
         font-size: 1rem;
     }
 
-    .hero-image img{
-        width: 500px;
-    }
-
     .contact-container {
         flex-wrap: wrap;
     }
