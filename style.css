@@ -911,7 +911,6 @@ p {
 .blog-card {
     background: white;
     border-radius: 16px;
-    padding: 36px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
@@ -943,7 +942,7 @@ p {
     margin: 0 0 0.75rem 0;
 }
 
-.blog-card:hover .blog-image {
+.blog-card:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -1785,12 +1784,29 @@ textarea {
     }
 }
 @media (max-width: 1024px) {
+    .hero-content{
+        gap: 1.5rem;
+    }
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .hero-content p{
+        font-size: 1rem;
+    }
+
+    .hero-image img{
+        width: 500px;
+    }
+
     .contact-container {
         flex-wrap: wrap;
     }
 
     .info-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0;
+        justify-content: center;
     }
 
     .info-cell {
@@ -1799,6 +1815,7 @@ textarea {
         ); /* Account for gap */
         max-width: calc(50% - clamp(1.5rem, 3dvh, 2.5rem));
     }
+
     .categories-header p {
         font-size: 18px;
     }
@@ -1809,6 +1826,104 @@ textarea {
 
     .categories-header p.categories-text.font-primary {
         font-size: 16px;
+    }
+
+    .timeline-img{
+        min-width: none;
+    }
+
+    .timeline-heading-1{
+        font-size: 2rem;
+    }
+
+    .timeline-heading-2{
+        font-size: 1.5rem;
+    }
+
+    .timeline-text p{
+        font-size: 1rem;
+    }
+
+    .carousel-content{
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4; /* Number of lines to show */
+        -webkit-box-orient: vertical;
+    }
+
+    .carousel-content{
+        height: 300px;
+    }
+
+    .number{
+        font-size: 2.5rem;
+    }
+
+    .description{
+        font-size: 0.875rem;
+    }
+
+    .app-card{
+        padding: 24px;
+    }
+
+    .app-card-image{
+        min-width: none;
+        height: auto;
+    }
+
+    .time-line{
+        margin: auto;
+    }
+
+    .timeline-img{
+        min-width: 300px;
+    }
+
+    .timeline-heading-1 {
+        font-size: 2rem;
+    }
+
+    .timeline-heading-1{
+        font-size: 2rem;
+    }
+
+    .timeline-heading-2{
+        font-size: 1.5rem;
+    }
+
+    .timeline-text p{
+        font-size: 1rem;
+    }
+
+    .contact-form{
+        gap: 48px;
+    }
+
+    .form-container{
+        max-width: 700px;
+    }
+
+    .form-group{
+        margin-top: auto;
+    }
+
+    .info-cell{
+        padding-bottom: 3rem;
+    }
+
+    .footer{
+        padding: 0;
+    }
+
+    .brand-name{
+        font-size: 1.125rem;
+    }
+
+    .footer-social{
+        gap: 1rem;
     }
 }
 
@@ -1881,6 +1996,7 @@ textarea {
         text-align: center;
         gap: 3rem;
         margin: 3rem 0;
+
     }
     .hero-desktop-image {
         display: none;

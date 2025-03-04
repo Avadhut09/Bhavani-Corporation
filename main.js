@@ -150,7 +150,7 @@ const blogData = [
     },
     {
         id: "blog-3",
-        image: "./assets/blog card/Felt Component for Industry.png",
+        image: "./assets/blog card/Blog-3.png",
         time: 6,
         category: "Design",
         title: "Wool Felt: Redefining Sustainability, Comfort, and Acoustics in Modern Interiors",
@@ -196,7 +196,7 @@ const dynBlog = [
     {
         id: "blog-1",
         title: "Woolen Felts & Industrial Felts: The Perfect Blend of Tradition and Innovation",
-        image: "./assets/blog card/Pressed Wool Felt.png", // update with your actual image path
+        image: "./assets/blog card/Pressed Wool Felt.png",
         excerpt:
             "Woolen felts have been a staple material for centuries, offering durability, flexibility, and eco-friendliness. In recent years, industrial felts have expanded their use across various sectors, enhancing manufacturing processes and product efficiency.",
         content: `
@@ -276,7 +276,7 @@ Contact us today to learn more!
     {
         id: "blog-2",
         title: "The Timeless Appeal of Woolen Felts: A Versatile and Sustainable Choice",
-        image: "./assets/blog card/Industrial Felt Manufacturing.png", // update with your actual image path
+        image: "./assets/blog card/Industrial Felt Manufacturing.png",
         excerpt:
             "Celebrated for their durability, sustainability, and versatility, woolen felts play a vital role in both fashion and industrial applications.",
         content: `
@@ -344,101 +344,44 @@ As consumer preferences shift towards sustainable materials, woolen felt stands 
     {
         id: "blog-3",
         title: "Wool Felt: Redefining Sustainability, Comfort, and Acoustics in Modern Interiors",
-        image: "./assets/blog card/Felt Component for Industry.png", // update with your actual image path
+        image: "./assets/blog card/Blog-3.png",
         excerpt:
             "Wool felt from Feline Fabrics: the perfect choice for sustainability, quality, and acoustics. If you are looking for sustainable and high-quality fabrics for your next project, wool felt from Feline Fabrics is an excellent choice.",
         content: `
 
-## Wool felt from Feline Fabrics: the perfect choice for sustainability, quality, and acoustics.
+## Wool Felt from Feline Fabrics: The Perfect Choice for Sustainability, Quality, and Acoustics
 
-If you are looking for sustainable and high-quality fabrics for your next project, wool felt from Feline Fabrics is an excellent choice. This versatile material is made from natural wool and offers a wide range of benefits, including durability, warmth, and a luxurious look.
-
-At Feline Fabrics, we value sustainability and quality, which is reflected in our products. Our wool felt is made from the highest quality wool and is produced using eco-friendly processes. This ensures that you get a product that is not only beautiful but also friendly to the environment.
-
-Feline Fabrics’ wool felt is available in a wide range of colors and thicknesses, giving you complete freedom to unleash your creativity. Whether you’re looking for a soft and subtle shade or a striking color that really stands out, you’ll find it all with us. Additionally, our wool felt fabrics are available in different thicknesses, from thin and flexible fabrics to sturdier options that are perfect for creating acoustic screens and acoustic designs.
+Wool felt, a timeless fabric crafted from natural sheep’s wool, is making a comeback in modern interior design. Its blend of sustainability, comfort, and acoustic properties makes it a top choice for eco-conscious homeowners and designers. Feline Fabrics, a leader in premium wool felt, provides products that enhance both the beauty and functionality of living spaces.
 
 <br>
+ 
+## Sustainability
 
-## Wool felt and well-being
+Sustainability lies at the heart of wool felt’s appeal. Wool is a renewable resource, harvested yearly from sheep without harm. The production process uses minimal resources—just water and soap to mat the fibers—avoiding harsh chemicals. Plus, wool is biodegradable, naturally breaking down at the end of its life, reducing environmental waste.
 
-Wool felt is not only durable and stylish, but it also offers numerous benefits for health and well-being. Wool is naturally moisture-regulating and temperature-regulating, which means it keeps you warm in winter and cool in summer. Moreover, wool felt is naturally hypoallergenic and antimicrobial, making it perfect for people with allergies and sensitive skin.
-
-At Feline Fabrics, we believe it’s important to deliver products that are not only beautiful but also functional and sustainable. Our wool felt is an excellent example of this philosophy, and we take pride in providing our customers with the highest quality fabrics on the market. Whether you’re a beginner or an experienced craftsman, our wool felt is the perfect choice for all your projects.
-
-So if you’re looking for high-quality wool felt fabrics, take a look at our range and discover the many benefits of Feline Fabrics.  
-
-We are confident that you’ll fall in love with our beautiful collection of wool felt.
+Feline Fabrics elevates this sustainability by sourcing wool from ethically raised sheep and using green manufacturing methods. Their wool felt meets strict environmental certifications, ensuring every production step is planet-friendly. Choosing Feline Fabrics means supporting a brand dedicated to ecological responsibility.
 
 <br>
+ 
+## Comfort
 
-## Wool felt, the sustainable choice
+Wool felt stands out for its incredible comfort. The natural crimps in wool fibers trap air, offering insulation that keeps spaces warm in winter and cool in summer. Its soft texture feels inviting, ideal for cozy interiors. Wool also regulates humidity by absorbing and releasing moisture, enhancing indoor comfort.
 
-Wool felt is not only a beautiful fabric to use in interior design, but it’s also a sustainable choice that contributes to a greener future. Below, we delve deeper into the benefits of wool felt as a sustainable interior fabric.
-
-Wool felt is made from natural fibers and is therefore a renewable resource. The material is produced by washing and combing sheep’s wool, and then pressing it together under pressure and heat. This creates a sturdy and durable material that is suitable for various applications in interior design.
-
-Wool felt production doesn’t involve the use of harmful substances or chemicals, making the process less taxing on the environment than the production of synthetic materials, for example.  
-Additionally, wool felt is biodegradable, which means that at the end of its lifespan, it can decompose without harming the environment.
-
-Another advantage of wool felt as a sustainable interior fabric is its long lifespan. Wool felt is naturally strong and durable, which means it lasts longer and doesn’t need to be replaced as often. This reduces the burden on the environment and leads to less waste.
+In design, wool felt brings comfort to life in various ways. Furniture upholstered with it gains a warm, soft touch, while felt wall coverings or tapestries insulate and quiet rooms. Even small accents like cushions or throws add a snug, welcoming vibe to any space.
 
 <br>
+ 
+## Acoustics
 
-## Wool felt and energy conservation
+Wool felt’s acoustic benefits are a game-changer. Its dense, fibrous makeup absorbs sound waves, cutting down on echoes and noise. This makes it perfect for improving sound quality in busy offices or tranquil homes, creating calmer, more focused environments with ease.
 
-Wool felt also has excellent insulation properties, making it a contributor to energy conservation in the home. Using wool felt in curtains or upholstery, for example, can retain heat better and result in energy cost savings.
-
-In summary, wool felt is a sustainable choice for interior design. The material is renewable, biodegradable, durable, and has excellent insulating properties. At Feline Fabrics, we have a wide selection of high-quality wool felt fabrics suitable for various applications in interior design.
-
-<br>
-
-## Wool felt and interior design
-
-Wool felt is not only a fantastic choice for crafting projects, but it can also be a striking addition to your interior. Wool felt is available in a wide range of colors and textures, making it perfect for adding warmth and texture to your space.
-
-Wool felt can also be used for wall decor and acoustic panels. Wool felt naturally has sound-absorbing properties, making it perfect for creating a calm and serene environment. Additionally, wool felt can be used as a background for photo frames or as wall covering for a unique and eye-catching look.
-
-Another advantage of using wool felt in interior design is that it is a sustainable and environmentally friendly choice. Wool is a natural material that is biodegradable and has less impact on the environment than synthetic materials. Using wool felt in your interior design can help reduce your ecological footprint.
-
-Whether you have a modern, minimalist interior or prefer a more bohemian style, wool felt is a versatile material that easily adapts to any style. At Feline Fabrics, we have a wide range of high uality wool felt fabrics that are perfect for any interior design.
-
-So if you are looking for a unique and sustainable material for your interior projects, definitely consider wool felt from Feline Fabrics. With our high-quality and extensive color palette, you are sure to find a fabric that fits your interior design.
+Feline Fabrics offers wool felt products tailored for acoustics, like stylish panels in diverse colors and designs. These can be installed on walls or ceilings to dampen noise while elevating decor. Felt room dividers also blend privacy with sound control in open layouts.
 
 <br>
+ 
+## Conclusion
 
-## Wool felt and acoustics
-
-Natural materials are becoming increasingly popular in interior design due to their versatility and environmentally friendly properties. Wool felt is a material that has gained a lot of attention in recent years due to its unique acoustic properties. Below, we delve deeper into wool felt and its effects on acoustics.
-
-It has been scientifically proven that wool felt can improve the acoustics of a space. This is because wool felt naturally absorbs and reduces sound waves, improving the acoustics in a space. This makes wool felt an excellent choice for spaces with a lot of noise, such as offices, restaurants, concert halls, and public buildings.
-
-Wool felt is often used for the production of acoustic panels, which can be easily mounted on the wall and provide effective reduction of reverberation and echoes in a space. These panels are available in various sizes and colors and can be designed to seamlessly fit with any interior design.
-
-<br>
-
-## Renewable resource
-
-Another advantage of wool felt is that it is sustainable and environmentally friendly. Wool is a renewable resource, and felt production does not require harmful chemicals or processes that are harmful to the environment. This makes wool felt an excellent choice for people looking for sustainable and environmentally friendly solutions for their interior design.
-
-In short, wool felt is a versatile and environmentally friendly material that can improve the acoustics of a space. It is a great choice for interior designers looking for sustainable and effective solutions for their projects. If you are interested in wool felt for your interior design or acoustic solutions, be sure to check out our range of wool felt fabrics at Feline Fabrics.
-
-<br>
-
-## Wool felt and sound absorption
-
-An important advantage of wool felt is that it naturally absorbs and reduces sound. This is because the material has a fiber structure that can absorb and dampen sound waves. This reduces reverberation and echo in a space, reducing the sound level and improving the acoustics.
-
-Another advantage of wool felt is that it also contributes to the air quality in a space. Wool is a natural material that is naturally moisture-regulating and can regulate humidity. This creates a healthier and more comfortable indoor climate, which is especially important in spaces where many people come together.
-
-Wool felt also has an aesthetic value in interior design. The material has a unique texture and appearance that creates a warm and cozy atmosphere in a space. This makes wool felt an excellent choice for creating a cozy and comfortable ambiance in homes, restaurants, hotels, and other public buildings.
-
-<br>
-
-## So many possibilities
-
-Finally, wool felt is a sustainable choice for interior design. Wool is a renewable resource, and the production process of wool felt is less environmentally damaging than, for example, the use of synthetic materials. This means that by using wool felt, you are contributing to a sustainable future.
-
-In summary, wool felt is a versatile material that offers both aesthetic and practical benefits for interior design and acoustics. At Feline Fabrics, we have a wide selection of high-quality wool felt fabrics that are suitable for various projects and applications. Please feel free to contact us if you would like to learn more about the possibilities of wool felt for your project.
+Wool felt from Feline Fabrics is a versatile solution for modern interiors, merging sustainability, comfort, and acoustics seamlessly. It meets the needs of today’s designers and homeowners seeking eco-friendly, functional beauty. Discover their collection to transform your space with this remarkable fabric.
 `,
     },
 ];
