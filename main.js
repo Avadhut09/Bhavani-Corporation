@@ -598,14 +598,6 @@ function createBlogCards(data, containerId) {
 // Blog Pages
 // ---------------------------
 
-// marked.setOptions({
-//     gfm: true,
-//     smartypants: true,
-//     headerIds: true,
-//     // If you don't need custom heading rendering, omit the custom renderer entirely.
-// });
-
-// Inject custom CSS for blog post detail styling.
 // Inject custom CSS for blog post detail styling.
 function injectCSS() {
     const style = document.createElement("style");
@@ -693,6 +685,75 @@ function injectCSS() {
       
       .blog-content ol{
         list-style-type: decimal;
+      }
+
+      @media (max-width: 768px) {
+        #blog-container{
+            margin: 4rem auto;
+        }
+        .blog-post-detail {
+        gap: 48px;
+      }
+
+      /* Blog post image styling */
+
+        .blog-post-detail img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        height: 400px;
+        border-radius:16px;
+        object-fit: cover;
+      }
+        /* Center the blog title */
+      .blog-post-detail h1 {
+        text-align: center;
+        margin-bottom: 0;
+        font-size:  2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 57.6px */
+      }
+
+      .blog-content h2{
+        color: var(--brand-green);
+        font-family: var(--secondary-font);
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 0.5rem;
+      }
+
+      .blog-content h3{
+        color: var(--brand-green);
+        font-family: var(--secondary-font);
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      .blog-content p{
+        color: var(--accent-color);
+        font-family: var(--primary-font);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 0.375rem;
+      }
+
+      .blog-content p strong{
+        color: var(--accent-color);
+        font-family: var(--primary-font);
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 0.313rem;
+      }
       }
 
       @media (max-width: 480px) {

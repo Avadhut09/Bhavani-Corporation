@@ -1030,8 +1030,9 @@ p {
     flex: 1 1 500px; /* Prevent from growing beyond 500px */
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 48px;
     max-width: 500px; /* Add max-width constraint */
+    justify-content: space-evenly;
 }
 
 .info-grid {
@@ -1357,7 +1358,7 @@ textarea {
 
 .timeline {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -1373,7 +1374,6 @@ textarea {
 }
 .timeline-item {
     position: relative;
-    margin-bottom: 50px;
 }
 .timeline-item::before {
     content: "";
@@ -1422,7 +1422,7 @@ textarea {
     font-style: italic;
     font-weight: 600;
     line-height: 120%;
-    margin: 0;
+    margin: 16px 0;
 }
 .timeline-heading-2 {
     color: var(--accent-color);
@@ -1431,7 +1431,7 @@ textarea {
     font-style: normal;
     font-weight: 600;
     line-height: 130%;
-    margin: 0;
+    margin-bottom: 16px;
 }
 .timeline-text p {
     font-size: clamp(16px, 3vw, 18px);
@@ -1782,16 +1782,20 @@ textarea {
     .categories-header.categories-text.font-primary {
         font-size: 18px !important;
     }
+
+    /* .div4 .number.stats-green {
+        font-size: 75px;
+    } */
 }
 @media (max-width: 1024px) {
-    .hero-content{
+    .hero-content {
         gap: 1.5rem;
     }
     .hero-content h1 {
         font-size: 3rem;
     }
 
-    .hero-content p{
+    .hero-content p {
         font-size: 1rem;
     }
 
@@ -1824,24 +1828,27 @@ textarea {
         font-size: 16px;
     }
 
-    .timeline-img{
+    .timeline-img {
         min-width: none;
     }
 
-    .timeline-heading-1{
+    .timeline-heading-1 {
         font-size: 2rem;
     }
 
-    .timeline-heading-2{
+    .timeline-heading-2 {
         font-size: 1.5rem;
     }
 
-    .timeline-text p{
+    .timeline-text p {
         font-size: 1rem;
     }
 
-    .carousel-content{
+    .carousel-content {
         margin: 0;
+    }
+
+    .carousel-content p {
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
@@ -1849,32 +1856,32 @@ textarea {
         -webkit-box-orient: vertical;
     }
 
-    .carousel-content{
+    .carousel-content img {
         height: 300px;
     }
 
-    .number{
+    .number {
         font-size: 2.5rem;
     }
 
-    .description{
+    .description {
         font-size: 0.875rem;
     }
 
-    .app-card{
+    .app-card {
         padding: 24px;
     }
 
-    .app-card-image{
+    .app-card-image {
         min-width: none;
         height: auto;
     }
 
-    .time-line{
+    .time-line {
         margin: auto;
     }
 
-    .timeline-img{
+    .timeline-img {
         min-width: 300px;
     }
 
@@ -1882,43 +1889,43 @@ textarea {
         font-size: 2rem;
     }
 
-    .timeline-heading-1{
+    .timeline-heading-1 {
         font-size: 2rem;
     }
 
-    .timeline-heading-2{
+    .timeline-heading-2 {
         font-size: 1.5rem;
     }
 
-    .timeline-text p{
+    .timeline-text p {
         font-size: 1rem;
     }
 
-    .contact-form{
+    .contact-form {
         gap: 48px;
     }
 
-    .form-container{
+    .form-container {
         max-width: 700px;
     }
 
-    .form-group{
+    .form-group {
         margin-top: auto;
     }
 
-    .info-cell{
+    .info-cell {
         padding-bottom: 3rem;
     }
 
-    .footer{
+    .footer {
         padding: 0;
     }
 
-    .brand-name{
+    .brand-name {
         font-size: 1.125rem;
     }
 
-    .footer-social{
+    .footer-social {
         gap: 1rem;
     }
 }
@@ -1992,7 +1999,6 @@ textarea {
         text-align: center;
         gap: 3rem;
         margin: 3rem 0;
-
     }
     .hero-desktop-image {
         display: none;
@@ -2099,7 +2105,7 @@ textarea {
 
     /* CONTACT FORM TABLET*/
     .contact-form {
-        gap: 48px;
+        gap: 24px;
         margin: 3rem 1rem;
     }
     .contact-container {
@@ -2110,9 +2116,13 @@ textarea {
         align-items: center;
     } */
 
+    .info-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: clamp(1.5rem, 3dvh, 2.5rem);
+        justify-content: center;
+    }
+
     .info-cell {
-        /* flex-basis: 100%; */
-        max-width: fit-content;
         flex-wrap: wrap;
     }
 
@@ -2350,28 +2360,6 @@ textarea {
         width: 100%;
     }
 
-    /* Stack timeline items */
-    /* .timeline-item.left .timeline-row,
-    .timeline-item.right .timeline-row {
-        flex-direction: column !important;
-    } */
-    /* Increase left gap between divider and content */
-    /* .timeline-text,
-    .timeline-img {
-        width: auto; 
-        margin-left: 50px; 
-    } */
-
-    /* .timeline-img {
-        min-width: 0; 
-    } */
-
-    /* .timeline::after,
-    .timeline-item::before {
-        left: 50%;
-        transform: translateX(-50%);
-    } */
-
     .timeline-text {
         order: 0;
         text-align: left !important;
@@ -2464,7 +2452,6 @@ textarea {
         margin: 0 2px;
     }
     .carousel-content img {
-        width: auto;
         height: 240px;
     }
     .carousel-description p {
@@ -2520,14 +2507,9 @@ textarea {
         margin: 1.5rem 0;
     }
     .hero-svg {
-        position: absolute;
-        width: 100%;
-        height: auto;
         left: 40%;
         top: 40%;
-        opacity: 0.8;
-        transform: translate(-50%, -30%) scale(1.4);
-        z-index: -1;
+        transform: translate(-40%, -40%);
     }
     .hero-content {
         gap: 8px;
@@ -2869,6 +2851,10 @@ textarea {
         align-self: center;
         gap: 0;
         justify-content: space-evenly;
+    }
+
+    .form-container button {
+        margin-top: auto;
     }
 
     .info-grid {
