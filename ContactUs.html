@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="/assets/Bhavani Corporation.svg"
+        />
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+        ></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init({
+                    publicKey: "6u_tKpMhjIKYQI6L4",
+                });
+            })();
+        </script>
+        <title>Bhavani Corporation</title>
+    </head>
+    <body>
+        <div class="container">
+            <!----------
+            ┳┓┏┓┓┏┳┓┏┓┳┓
+            ┃┃┣┫┃┃┣┫┣┫┣┫
+            ┛┗┛┗┗┛┻┛┛┗┛┗
+            ----------->
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="./HomePage.html">
+                        <img src="/assets/Bhavani Corporation.png" alt="Logo" />
+                    </a>
+                </div>
+
+                <div class="nav-items font-primary">
+                    <a href="./HomePage.html" class="nav-link">Home</a>
+                    <div class="dropdown">
+                        <a href="./ProductCatalogue.html" class="nav-link">
+                            Product Catalogue
+                        </a>
+                        <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="dropdown-icon"
+                        >
+                            <path d="M4 6l4 4 4-4" />
+                        </svg>
+                        <div
+                            class="dropdown-menu"
+                            id="productCatalogueDropdownMenu"
+                        >
+                            <!-- Dynamic links will be added here -->
+                        </div>
+                    </div>
+                    <a href="./Blogs.html" class="nav-link">Blog</a>
+                    <a href="./About.html" class="nav-link">About</a>
+                    <a href="#" class="nav-link" aria-current="page">Contact</a>
+                    <button
+                        onclick="location.href='#contact-section'"
+                        class="contact-btn mobile-only"
+                    >
+                        Contact Us
+                    </button>
+                </div>
+
+                <button
+                    onclick="location.href='#contact-section'"
+                    class="contact-btn desktop-only"
+                >
+                    Contact Us
+                </button>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+
+            <!------------------------ 
+            ┏┓┏┓┳┓┏┳┓┏┓┏┓┏┳┓ ┏┓┏┓┳┓┳┳┓
+            ┃ ┃┃┃┃ ┃ ┣┫┃  ┃  ┣ ┃┃┣┫┃┃┃
+            ┗┛┗┛┛┗ ┻ ┛┗┗┛ ┻  ┻ ┗┛┛┗┛ ┗ 
+            -------------------------->
+            <section id="contact-section" class="contact-form">
+                <div class="categories-header">
+                    <p>Contact us</p>
+                    <h2>Ready to Felt the Difference?</h2>
+                    <p class="categories-text font-primary">
+                        Let’s collaborate and bring your vision to life with
+                        premium felt solutions
+                    </p>
+                </div>
+                <div class="contact-container">
+                    <!-- Contact Form -->
+                    <form id="form" class="form-container">
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Name *"
+                            />
+                            <label for="name"
+                                >Name <span class="required">*</span></label
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="Email *"
+                            />
+                            <label for="email"
+                                >Email <span class="required">*</span></label
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <input
+                                type="tel"
+                                id="contact_no"
+                                name="contact_no"
+                                required
+                                placeholder="Contact Number *"
+                            />
+                            <label for="contact_no"
+                                >Contact Number
+                                <span class="required">*</span></label
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                placeholder="Message"
+                                maxlength="200"
+                            ></textarea>
+                            <label for="message">Message</label>
+                        </div>
+
+                        <button type="submit" class="contact-btn">
+                            Send Message
+                        </button>
+                    </form>
+
+                    <!-- Contact Info Grid -->
+                    <div class="info-grid">
+                        <div class="info-cell">
+                            <img
+                                src="/assets/icons/envelope.svg"
+                                alt="Mail Icon"
+                            />
+                            <h3>Email</h3>
+                            <p>
+                                <a
+                                    href="mailto:info@bhavanifelt.com"
+                                    class="email-link"
+                                >
+                                    info@bhavanifelt.com
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    href="mailto:bhavanicorp11@gmail.com"
+                                    class="email-link"
+                                >
+                                    bhavanicorp11@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                        <div class="info-cell">
+                            <img
+                                src="/assets/icons/phone.svg"
+                                alt="Phone Icon"
+                            />
+                            <h3>Phone</h3>
+                            <p>
+                                <a href="tel:+919321990176" class="phone-link">
+                                    +91 9321990176
+                                </a>
+                            </p>
+                            <p>
+                                <a href="tel:+917039600205" class="phone-link">
+                                    +91 7039600205
+                                </a>
+                            </p>
+                        </div>
+                        <div class="info-cell">
+                            <img src="/assets/icons/map.svg" alt="Map Icon" />
+                            <h3>Office Address</h3>
+                            <p>
+                                Kavita CHS Ltd, Room No: 303, Bldg No: C-57,
+                                Sector No: 5, Shanti Nagar, Mira Road (E),Dist:
+                                Thane - 401107, Mumbai
+                            </p>
+                            <button class="get-directions-btn">
+                                Get Directions
+                                <svg
+                                    class="arrow-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                >
+                                    <path
+                                        d="M9.70703 16.9492L15.414 11.2422L9.70703 5.53516L8.29303 6.94916L12.586 11.2422L8.29303 15.5352L9.70703 16.9492Z"
+                                        fill="#E46713"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="info-cell">
+                            <img
+                                src="/assets/icons/warehouse.svg"
+                                alt="Warehouse Icon"
+                            />
+                            <h3>Warehouse</h3>
+                            <p>
+                                Jyotirling, No: 2, Digha Village,Thane-Belapur
+                                Road,New Mumbai - 400708
+                            </p>
+                            <button class="get-directions-btn">
+                                Get Directions
+                                <svg
+                                    class="arrow-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                >
+                                    <path
+                                        d="M9.70703 16.9492L15.414 11.2422L9.70703 5.53516L8.29303 6.94916L12.586 11.2422L8.29303 15.5352L9.70703 16.9492Z"
+                                        fill="#E46713"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!---------------      
+            ┳┓┏┓┏┓┏┓┓┏┏┓┳┳┏┳┓
+            ┣┫┣ ┣┫┃ ┣┫┃┃┃┃ ┃ 
+            ┛┗┗┛┛┗┗┛┛┗┗┛┗┛ ┻ 
+            ---------------->
+            <section class="reach-out">
+                <div class="categories-header">
+                    <p>Reach Out</p>
+                    <h2>Get in Touch with Us</h2>
+                    <p class="categories-text font-primary">
+                        Have questions or ready to start a project? Our team at
+                        Bhavani Corporation is ready to assist you. Reach out
+                        today for personalized support and solutions tailored to
+                        your business needs.
+                    </p>
+                </div>
+                <button
+                    onclick="location.href='#contact-section'"
+                    class="contact-btn"
+                >
+                    Contact Us
+                </button>
+            </section>
+
+            <!-----------
+            ┏┓┏┓┏┓┏┳┓┏┓┳┓
+            ┣ ┃┃┃┃ ┃ ┣ ┣┫
+            ┻ ┗┛┗┛ ┻ ┗┛┛┗ 
+            ------------>
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <img
+                            src="/assets/Bhavani Corporation.png"
+                            alt="Logo"
+                            class="footer-logo"
+                        />
+                        <span class="brand-name">Bhavani Corporation</span>
+                    </div>
+
+                    <div class="footer-links">
+                        <a href="./HomePage.html" class="footer-link">Home</a>
+                        <a href="./ProductCatalogue.html" class="footer-link"
+                            >Product Catalogue</a
+                        >
+                        <a href="./Blogs.html" class="footer-link">Blog</a>
+                        <a href="./About.html" class="footer-link">About</a>
+                        <a href="#" class="footer-link">Contact</a>
+                    </div>
+
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                ></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <rect
+                                    x="2"
+                                    y="2"
+                                    width="20"
+                                    height="20"
+                                    rx="5"
+                                    ry="5"
+                                ></rect>
+                                <path
+                                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                                ></path>
+                                <line
+                                    x1="17.5"
+                                    y1="6.5"
+                                    x2="17.51"
+                                    y2="6.5"
+                                ></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="copyright">
+                        © 2025 Bhavani Corporation. All rights reserved.
+                    </div>
+                </div>
+            </footer>
+
+            <script type="module" src="/main.js"></script>
+        </div>
+    </body>
+</html>

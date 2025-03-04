@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="/assets/Bhavani Corporation.svg"
+        />
+        <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+        ></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init({
+                    publicKey: "6u_tKpMhjIKYQI6L4",
+                });
+            })();
+        </script>
+        <title>Bhavani Corporation</title>
+    </head>
+    <body>
+        <div class="container">
+            <!----------
+            ┳┓┏┓┓┏┳┓┏┓┳┓
+            ┃┃┣┫┃┃┣┫┣┫┣┫
+            ┛┗┛┗┗┛┻┛┛┗┛┗
+            ------------>
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="./HomePage.html">
+                        <img src="/assets/Bhavani Corporation.png" alt="Logo" />
+                    </a>
+                </div>
+
+                <div class="nav-items font-primary">
+                    <a href="#" class="nav-link" aria-current="page">Home</a>
+                    <div class="dropdown">
+                        <a href="./ProductCatalogue.html" class="nav-link">
+                            Product Catalogue
+                        </a>
+                        <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 16 16"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="dropdown-icon"
+                        >
+                            <path d="M4 6l4 4 4-4" />
+                        </svg>
+                        <div
+                            class="dropdown-menu"
+                            id="productCatalogueDropdownMenu"
+                        >
+                            <!-- Dynamic links will be added here -->
+                        </div>
+                    </div>
+                    <a href="./Blogs.html" class="nav-link">Blog</a>
+                    <a href="./About.html" class="nav-link">About</a>
+                    <a href="./ContactUs.html" class="nav-link">Contact</a>
+                    <button
+                        onclick="location.href='./ContactUs.html'"
+                        class="contact-btn mobile-only"
+                    >
+                        Contact Us
+                    </button>
+                </div>
+
+                <button
+                    onclick="location.href='./ContactUs.html'"
+                    class="contact-btn desktop-only"
+                >
+                    Contact Us
+                </button>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+
+            <!-----------------------
+            ┓┏┏┓┳┓┏┓┏┓ ┏┓┏┓┏┓┏┳┓┳┏┓┳┓
+            ┣┫┣ ┣┫┃┃┗┓ ┗┓┣ ┃  ┃ ┃┃┃┃┃
+            ┛┗┗┛┛┗┗┛┗┛ ┗┛┗┛┗┛ ┻ ┻┗┛┛┗ 
+            ------------------------>
+            <section class="hero">
+                <svg
+                    class="hero-svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1443"
+                    height="836"
+                    viewBox="0 0 1443 836"
+                    fill="none"
+                >
+                    <path
+                        d="M42.4794 198.07C106.994 207.538 144.562 206.889 180.379 195.001C245.44 174.164 285.739 144.114 343.901 72.2569C383.96 23.9027 392.467 17.4669 425.066 12.2782C477.924 4.03901 517.362 30.7354 557.293 102.3C571.502 127.506 594.314 168.027 608.613 192.818C642.637 253.122 696.865 313.407 743.119 341.563C776.15 362.107 783.836 365.056 844.354 379.317C894.646 391.389 927.951 396.781 985.135 401.637C1077.38 409.219 1128.72 421.949 1169.08 447.105C1184.4 456.035 1200.98 467.407 1205.86 472.363C1214.36 479.832 1214.09 481.079 1203.56 491.427C1177.8 514.595 1051.62 662.719 1040.36 682.036C1009.07 736.613 1037.73 805.33 1101.76 828.165C1151.85 846.713 1220.05 827.853 1263.94 783.796C1286.68 760.85 1288.62 757.354 1297.75 711.938C1306.29 672.046 1306.47 657.31 1299.99 623.763C1290.94 574.455 1273.35 528.968 1251.93 501.35L1236.09 481.008L1251.78 460.465C1260.13 449.215 1268.51 440.58 1270.21 440.945C1271.92 441.309 1280.13 455.671 1288.86 473.185C1297.67 490.283 1308.76 507.867 1313.25 511.871C1320.71 518.682 1320.88 517.851 1313.93 505.932C1310.15 498.604 1300.17 478.648 1292.58 461.377C1278.78 431.478 1278.48 430.11 1289.28 418.516C1357.24 345.28 1435.17 197.034 1441.74 135.858C1444.88 101.764 1430.44 66.5134 1402.24 40.0503C1364.59 5.04301 1285.74 -6.09647 1248.01 3.64289C1183.44 19.3718 1157.13 100.655 1179 220.503C1188.08 272.426 1216.05 349.819 1242.22 394.1L1260.87 426.34L1246.9 441.603C1239.18 449.944 1230.52 459.826 1227.27 463.91C1222.35 470.245 1221.22 470.001 1213.28 462.653C1192.24 441.633 1156.19 421.311 1120.63 409.787C1076.64 396.023 1057.15 392.719 990.343 388.411C958.688 386.413 913.276 379.298 863.764 369.132C787.074 352.712 787.074 352.712 747.67 328.63C683.614 289.275 649.83 247.274 578.537 116.844C556.772 76.9826 523.556 35.1038 503.18 22.0495C482.804 8.99515 445.613 2.33594 418.482 6.95721C390.694 11.8724 359.293 36.4395 333.052 72.9763C289.934 132.844 215.928 184.36 155.931 195.417C124.947 201.386 82.5322 199.693 38.6122 191.158C20.3447 187.682 3.42556 186.232 1.27647 187.945C-1.52966 189.952 14.2876 193.773 42.4794 198.07ZM1101.81 630.875C1122.19 607.858 1155.87 569.872 1176.99 546.146C1198.02 522.836 1215.59 501.826 1216.04 499.748C1218.79 486.866 1230.35 496.728 1247.73 526.525C1283.46 587.195 1296.19 694.222 1272.81 739.627C1248.59 786.157 1208.38 815.792 1162 821.507C1115.05 827.101 1079.94 813.499 1060.37 782.8C1045.81 759.256 1044.5 745.938 1055.05 707.78C1063.34 677.395 1069.06 667.32 1101.81 630.875ZM1218.23 37.2506C1237.56 13.5752 1258.05 6.66333 1288.07 13.5252C1330.5 23.4785 1409.39 59.3983 1421 102.3C1427.13 123.605 1426.22 133.405 1417.63 162.422C1411.75 181.588 1399.57 210.706 1390.63 227.479C1366.68 272.763 1284.56 404.468 1270.49 411.887C1268.43 413.184 1237.87 339.582 1223.91 304.869C1205.1 259.554 1196.29 228.551 1192.95 196.98C1186.12 137.284 1186.39 136.037 1194.15 94.2402C1199.45 66.6929 1205.41 52.7572 1218.23 37.2506Z"
+                        fill="#FFEFE4"
+                    />
+                </svg>
+                <div class="hero-content">
+                    <h1>
+                        From Felt to Fabulous: Crafting Industrial Precision
+                    </h1>
+                    <p>
+                        Whether it’s industrial precision or creative flair,
+                        Bhavani Corporation’s felt is built to withstand the
+                        test of time. Crafted with care, designed for
+                        performance.
+                    </p>
+                    <button
+                        onclick="location.href='#contact-section'"
+                        class="contact-btn"
+                    >
+                        Let’s Create Together – Contact Us Now
+                    </button>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number font-accent tag-line"
+                                >30+</span
+                            >
+                            <span class="stat-text">Years of Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number font-accent tag-line"
+                                >4k</span
+                            >
+                            <span class="stat-text">Customers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img
+                        class="hero-desktop-image"
+                        src="../assets/Hero Section Img.png"
+                        alt="Team working together"
+                    />
+                    <img
+                        class="hero-mobile-image"
+                        src="../assets/Hero Section Img Mobile.png"
+                        alt="Team working together"
+                    />
+                </div>
+            </section>
+
+            <!----------------------- 
+            ┏┓┏┓┳┓┏┳┓┳┏┓┳┏┓┏┓┏┳┓┳┏┓┳┓
+            ┃ ┣ ┣┫ ┃ ┃┣ ┃┃ ┣┫ ┃ ┃┃┃┃┃
+            ┗┛┗┛┛┗ ┻ ┻┻ ┻┗┛┛┗ ┻ ┻┗┛┛┗ 
+            ------------------------>
+            <section class="certifications">
+                <div class="categories-header">
+                    <h2>Certified to Deliver Excellence</h2>
+                    <p class="categories-text font-primary">
+                        Industry-recognized certifications that guarantee
+                        uncompromising quality and trust
+                    </p>
+                    <div class="certification-grid">
+                        <div class="certification-item">
+                            <a
+                                href="../assets/cert/cert_pdf/M-CST_Certification.pdf"
+                                target="_blank"
+                            >
+                                <img
+                                    width="auto"
+                                    height="140"
+                                    src="../assets/cert/mcst cert.svg"
+                                    alt="MCST Certification"
+                                />
+                                <span>M-CST Certification</span>
+                            </a>
+                        </div>
+                        <div class="certification-item">
+                            <a
+                                href="../assets/cert/cert_pdf/IEC_Certification.pdf"
+                                target="_blank"
+                            >
+                                <img
+                                    width="auto"
+                                    height="140"
+                                    src="../assets/cert/iec cert.svg"
+                                    alt="IEC Certification"
+                                />
+                                <span>IEC Certification</span>
+                            </a>
+                        </div>
+                        <div class="certification-item">
+                            <a
+                                href="../assets/cert/cert_pdf/GST_Certificate.pdf"
+                                target="_blank"
+                            >
+                                <img
+                                    width="auto"
+                                    height="140"
+                                    src="../assets/cert/gst cert.svg"
+                                    alt="GST Certification"
+                                />
+                                <span>GST</span>
+                            </a>
+                        </div>
+                        <div class="certification-item">
+                            <a
+                                href="../assets/cert/cert_pdf/M-VAT_Certification.pdf"
+                                target="_blank"
+                            >
+                                <img
+                                    width="auto"
+                                    height="140"
+                                    src="../assets/cert/mvat cert.svg"
+                                    alt="MVAT Certification"
+                                />
+                                <span>M-VAT Certification</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!----------- 
+            ┳┓┏┓┏┓┳┳┓┏┳┓┏┓
+            ┣┫┣ ┗┓┃┃┃ ┃ ┗┓
+            ┛┗┗┛┗┛┗┛┗┛┻ ┗┛ 
+            ------------->
+            <section class="results">
+                <div class="results-content">
+                    <div class="results-header">
+                        <p>Results</p>
+                        <h2>Numbers That Speak for Themselves</h2>
+                    </div>
+                    <div class="results-text">
+                        <p class="font-secondary primary-color">
+                            With over 20 years of industry expertise, Bhavani
+                            Corporation has consistently delivered high-quality
+                            felt products. Our global reach spans across diverse
+                            industries, providing customized solutions that
+                            drive success. The numbers speak for themselves, but
+                            it’s our commitment to excellence that truly sets us
+                            apart.
+                        </p>
+                        <button
+                            onclick="location.href='#contact-section'"
+                            class="contact-btn"
+                        >
+                            Get in Touch With Us
+                        </button>
+                    </div>
+                </div>
+                <!-- RESULTS GRID -->
+                <div class="stat-card-grid">
+                    <div class="div1">
+                        <div class="card" style="--card-color: var(--tag-line)">
+                            <p class="top-left font-secondary brand-green">
+                                Customer Satisfaction
+                            </p>
+
+                            <div class="bottom-right">
+                                <div class="number stats-green">99.5%</div>
+                                <div class="divider"></div>
+                                <p
+                                    class="description font-primary accent-color"
+                                >
+                                    Ensuring quality and precision, every single
+                                    time
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div2">
+                        <div
+                            class="card image-card"
+                            style="--card-color: var(--tag-line)"
+                        >
+                            <img
+                                src="/assets/results stat img/stats-img-1.png"
+                                alt="Image 1"
+                                class="card-image"
+                            />
+                        </div>
+                    </div>
+                    <div class="div3">
+                        <div
+                            class="card"
+                            style="--card-color: var(--brand-green)"
+                        >
+                            <p class="top-left font-secondary brand-green">
+                                Felt supplied
+                            </p>
+
+                            <div class="bottom-right">
+                                <div class="number font-primary tag-line">
+                                    50+ Tons
+                                </div>
+                                <div class="divider"></div>
+                                <p
+                                    class="description font-primary accent-color"
+                                >
+                                    Supplied over 50 tons of high-quality felt
+                                    to industries worldwide
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div4">
+                        <div class="card" style="--card-color: var(--tag-line)">
+                            <p class="top-left font-secondary brand-green">
+                                Exporting to
+                            </p>
+
+                            <div class="bottom-right">
+                                <div class="number stats-green">
+                                    25+ Countries
+                                </div>
+                                <div class="divider"></div>
+                                <p
+                                    class="description font-primary accent-color"
+                                >
+                                    Trusted globally, rooted locally
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div5">
+                        <div
+                            class="card image-card"
+                            style="--card-color: var(--tag-line)"
+                        >
+                            <img
+                                src="/assets/results stat img/stats-img-2.png"
+                                alt="Image 2"
+                                class="card-image"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!------------------
+            ┏┓┏┓┏┳┓┏┓┏┓┏┓┳┓┳┏┓┏┓
+            ┃ ┣┫ ┃ ┣ ┃┓┃┃┣┫┃┣ ┗┓
+            ┗┛┛┗ ┻ ┗┛┗┛┗┛┛┗┻┗┛┗┛
+            -------------------->
+            <section class="categories">
+                <div class="categories-header">
+                    <p>Categories</p>
+                    <h2>Versatile Felt for Every Need</h2>
+                    <p class="categories-text font-primary">
+                        Explore our wide range of high-quality felt products
+                        tailored for diverse applications
+                    </p>
+                </div>
+                <div class="cat-grid-container" id="gridContainer"></div>
+                <!-- Template for the card -->
+                <template id="cardTemplate">
+                    <div class="product-card">
+                        <div class="image-container">
+                            <img
+                                src="https://via.placeholder.com/552x240"
+                                alt="Product Image"
+                                class="product-image"
+                            />
+                        </div>
+                        <div class="product-content">
+                            <h2 class="product-name">Category Name</h2>
+                            <p class="product-description">
+                                Category description
+                            </p>
+                            <button class="product-btn">See Product</button>
+                        </div>
+                    </div>
+                </template>
+            </section>
+
+            <!----------
+            ┓ ┏┓┏┓┏ ┳┳┏┓
+            ┃┃┃┣┫┗┫ ┃┃┗┓
+            ┗┻┛┛┗┗┛ ┗┛┗┛
+            ------------>
+            <section class="whyus">
+                <div class="whyus-header">
+                    <p>Why Us</p>
+                    <h2>The Felt Experts You Can Rely On</h2>
+                </div>
+                <div class="whyus-content">
+                    <div class="whyus-item">
+                        <img
+                            src="/assets/whyus/HQ Icon whyus.svg"
+                            alt="High Quality"
+                        />
+                        <h2>Unmatched Quality</h2>
+                        <p>
+                            Every product is meticulously tested for durability
+                            and performance
+                        </p>
+                    </div>
+                    <div class="whyus-item">
+                        <img
+                            src="/assets/whyus/Partner Icon whyus.svg"
+                            alt="Partnership"
+                        />
+                        <h2>Reliable Partnerships</h2>
+                        <p>
+                            Building long-term relationships with satisfied
+                            clients across the globe
+                        </p>
+                    </div>
+                    <div class="whyus-item">
+                        <img
+                            src="/assets/whyus/Globe Icon whyus.svg"
+                            alt="Global Reach"
+                        />
+                        <h2>Global Reach</h2>
+                        <p>
+                            Partnering with industries across continents for
+                            felt solutions
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!------ 
+            ┏┓┏┓┏┓ 
+            ┣ ┣┫┃┃ ┏
+            ┻ ┛┗┗┻ ┛
+            -------->
+            <section class="faq">
+                <div class="categories-header">
+                    <p>FAQs</p>
+                    <h2>Got Questions? We’ve Got Answers</h2>
+                    <p class="categories-text font-primary">
+                        Find answers to common questions about our felt
+                        products, manufacturing, and delivery. If you need more
+                        information, we’re always happy to help.
+                    </p>
+                </div>
+                <div class="accordion"></div>
+                <div class="categories-header">
+                    <h2>Still have questions?</h2>
+                    <p class="categories-text font-primary">
+                        Whether it’s a special request or you need further
+                        details, we’re just a message away.
+                    </p>
+                    <button
+                        onclick="location.href='#contact-section'"
+                        class="contact-btn"
+                    >
+                        Get in Touch With Us
+                    </button>
+                </div>
+            </section>
+
+            <!----------------- 
+            ┳┓┓ ┏┓┏┓ ┏┓┏┓┳┓┳┓┏┓
+            ┣┫┃ ┃┃┃┓ ┃ ┣┫┣┫┃┃┗┓
+            ┻┛┗┛┗┛┗┛ ┗┛┛┗┛┗┻┛┗┛
+            ------------------>
+            <section class="blogs-cat">
+                <div class="categories-header">
+                    <p>Blog</p>
+                    <h2>Insights and Industry News</h2>
+                    <p class="categories-text font-primary">
+                        Dive into our blog for the latest stories, tips, and
+                        trends in the world of felt. From behind-the-scenes to
+                        industry secrets, we’ve got all the juicy details.
+                    </p>
+                </div>
+                <!-- Blog Cards -->
+                <div
+                    id="blog-cards-container"
+                    class="blog-card-container"
+                ></div>
+                <button
+                    class="view-all-btn"
+                    onclick="location.href='./Blogs.html'"
+                >
+                    View all blogs
+                </button>
+            </section>
+
+            <!------------------------ 
+            ┏┓┏┓┳┓┏┳┓┏┓┏┓┏┳┓ ┏┓┏┓┳┓┳┳┓
+            ┃ ┃┃┃┃ ┃ ┣┫┃  ┃  ┣ ┃┃┣┫┃┃┃
+            ┗┛┗┛┛┗ ┻ ┛┗┗┛ ┻  ┻ ┗┛┛┗┛ ┗ 
+            -------------------------->
+            <section id="contact-section" class="contact-form">
+                <div class="categories-header">
+                    <p>Contact us</p>
+                    <h2>Ready to Felt the Difference?</h2>
+                    <p class="categories-text font-primary">
+                        Let’s collaborate and bring your vision to life with
+                        premium felt solutions
+                    </p>
+                </div>
+                <div class="contact-container">
+                    <!-- Contact Form -->
+                    <form id="form" class="form-container">
+                        <div class="form-group">
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Name *"
+                            />
+                            <label for="name"
+                                >Name <span class="required">*</span></label
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="Email *"
+                            />
+                            <label for="email"
+                                >Email <span class="required">*</span></label
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <input
+                                type="tel"
+                                id="contact_no"
+                                name="contact_no"
+                                required
+                                placeholder="Contact Number *"
+                            />
+                            <label for="contact_no"
+                                >Contact Number
+                                <span class="required">*</span></label
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                placeholder="Message"
+                                maxlength="200"
+                            ></textarea>
+                            <label for="message">Message</label>
+                        </div>
+
+                        <button type="submit" class="contact-btn">
+                            Send Message
+                        </button>
+                    </form>
+
+                    <!-- Contact Info Grid -->
+                    <div class="info-grid">
+                        <div class="info-cell">
+                            <img
+                                src="/assets/icons/envelope.svg"
+                                alt="Mail Icon"
+                            />
+                            <h3>Email</h3>
+                            <p>
+                                <a
+                                    href="mailto:info@bhavanifelt.com"
+                                    class="email-link"
+                                >
+                                    info@bhavanifelt.com
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    href="mailto:bhavanicorp11@gmail.com"
+                                    class="email-link"
+                                >
+                                    bhavanicorp11@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                        <div class="info-cell">
+                            <img
+                                src="/assets/icons/phone.svg"
+                                alt="Phone Icon"
+                            />
+                            <h3>Phone</h3>
+                            <p>
+                                <a href="tel:+919321990176" class="phone-link">
+                                    +91 9321990176
+                                </a>
+                            </p>
+                            <p>
+                                <a href="tel:+917039600205" class="phone-link">
+                                    +91 7039600205
+                                </a>
+                            </p>
+                        </div>
+                        <div class="info-cell">
+                            <img src="/assets/icons/map.svg" alt="Map Icon" />
+                            <h3>Office Address</h3>
+                            <p>
+                                Kavita CHS Ltd, Room No: 303, Bldg No: C-57,
+                                Sector No: 5, Shanti Nagar, Mira Road (E),Dist:
+                                Thane - 401107, Mumbai
+                            </p>
+                            <button class="get-directions-btn">
+                                Get Directions
+                                <svg
+                                    class="arrow-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                >
+                                    <path
+                                        d="M9.70703 16.9492L15.414 11.2422L9.70703 5.53516L8.29303 6.94916L12.586 11.2422L8.29303 15.5352L9.70703 16.9492Z"
+                                        fill="#E46713"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="info-cell">
+                            <img
+                                src="/assets/icons/warehouse.svg"
+                                alt="Warehouse Icon"
+                            />
+                            <h3>Warehouse</h3>
+                            <p>
+                                Jyotirling, No: 2, Digha Village,Thane-Belapur
+                                Road,New Mumbai - 400708
+                            </p>
+                            <button class="get-directions-btn">
+                                Get Directions
+                                <svg
+                                    class="arrow-icon"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                >
+                                    <path
+                                        d="M9.70703 16.9492L15.414 11.2422L9.70703 5.53516L8.29303 6.94916L12.586 11.2422L8.29303 15.5352L9.70703 16.9492Z"
+                                        fill="#E46713"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!---------------      
+            ┳┓┏┓┏┓┏┓┓┏┏┓┳┳┏┳┓
+            ┣┫┣ ┣┫┃ ┣┫┃┃┃┃ ┃ 
+            ┛┗┗┛┛┗┗┛┛┗┗┛┗┛ ┻ 
+            ---------------->
+            <section class="reach-out">
+                <div class="categories-header">
+                    <p>Reach Out</p>
+                    <h2>Get in Touch with Us</h2>
+                    <p class="categories-text font-primary">
+                        Have questions or ready to start a project? Our team at
+                        Bhavani Corporation is ready to assist you. Reach out
+                        today for personalized support and solutions tailored to
+                        your business needs.
+                    </p>
+                </div>
+                <button
+                    onclick="location.href='#contact-section'"
+                    class="contact-btn"
+                >
+                    Contact Us
+                </button>
+            </section>
+
+            <!-----------
+            ┏┓┏┓┏┓┏┳┓┏┓┳┓
+            ┣ ┃┃┃┃ ┃ ┣ ┣┫
+            ┻ ┗┛┗┛ ┻ ┗┛┛┗ 
+            ------------>
+            <footer class="footer">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <img
+                            src="/assets/Bhavani Corporation.png"
+                            alt="Logo"
+                            class="footer-logo"
+                        />
+                        <span class="brand-name">Bhavani Corporation</span>
+                    </div>
+
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Home</a>
+                        <a href="./ProductCatalogue.html" class="footer-link"
+                            >Product Catalogue</a
+                        >
+                        <a href="./Blogs.html" class="footer-link">Blog</a>
+                        <a href="./About.html" class="footer-link">About</a>
+                        <a href="./ContactUs.html" class="footer-link"
+                            >Contact</a
+                        >
+                    </div>
+
+                    <div class="footer-social">
+                        <a href="#" class="social-link">
+                            <svg
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                                ></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                                ></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <rect
+                                    x="2"
+                                    y="2"
+                                    width="20"
+                                    height="20"
+                                    rx="5"
+                                    ry="5"
+                                ></rect>
+                                <path
+                                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                                ></path>
+                                <line
+                                    x1="17.5"
+                                    y1="6.5"
+                                    x2="17.51"
+                                    y2="6.5"
+                                ></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="copyright">
+                        © 2025 Bhavani Corporation. All rights reserved.
+                    </div>
+                </div>
+            </footer>
+
+            <div id="app"></div>
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
