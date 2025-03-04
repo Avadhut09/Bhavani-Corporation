@@ -4,84 +4,84 @@ const categories = [
         name: "Industrial Felt",
         description:
             "Durable, versatile, and designed to withstand industrial demands",
-        image: "/assets/categories img/Industrial Felt.png",
+        image: "./assets/categories img/Industrial Felt.png",
     },
     {
         id: "engineering-felt",
         name: "Engineering Felt",
         description:
             "Engineering Felt refers to specialized felt materials used in industrial and engineering applications.",
-        image: "/assets/categories img/Engineering Felt.png",
+        image: "./assets/categories img/Engineering Felt.png",
     },
     {
         id: "felt-rolls-sheets",
         name: "Pressed Wool Felt Rolls & Sheets",
         description:
             "Premium, tightly compressed wool felt available in rolls and sheets",
-        image: "/assets/categories img/Pressed Wool Felt Rolls & Sheets.png",
+        image: "./assets/categories img/Pressed Wool Felt Rolls & Sheets.png",
     },
     {
         id: "carbonised-felt",
         name: "Carbonised Felt",
         description:
             "Highly durable carbonised felt ideal for extreme conditions",
-        image: "/assets/categories img/Carbonized Felt.png",
+        image: "./assets/categories img/Carbonized Felt.png",
     },
     {
         id: "color-felt",
         name: "Color Felt",
         description:
             "High-quality, vibrant felt sheets available in a variety of shades",
-        image: "/assets/categories img/Color Felt.png",
+        image: "./assets/categories img/Color Felt.png",
     },
     {
         id: "felt-wheels",
         name: "Felt Wheels",
         description:
             "Precision-engineered felt wheels for grinding, polishing, & finishing",
-        image: "/assets/categories img/Felt Wheels.png",
+        image: "./assets/categories img/Felt Wheels.png",
     },
     {
         id: "needle-punch-felt",
         name: "Needle Punch Felt",
         description:
             "Durable fabric created by mechanically interlocking fibers using a needling process, rather than weaving or knitting",
-        image: "/assets/categories img/Needle Punch Felt.png",
+        image: "./assets/categories img/Needle Punch Felt.png",
     },
     {
         id: "polishing-felt",
         name: "Polishing Felt",
         description:
             "Dense, fine micron wool felt ideal for final polishing of metals, composites, and delicate surfaces",
-        image: "/assets/categories img/Polishing Felt.png",
+        image: "./assets/categories img/Polishing Felt.png",
     },
     {
         id: "felt-cords",
         name: "Felt Cords",
         description:
             "Flexible, strong felt cords for sealing and insulation purposes",
-        image: "/assets/categories img/Felt Cord.png",
+        image: "./assets/categories img/Felt Cord.png",
     },
     {
         id: "felt-components",
         name: "Felt Cut Parts",
         description:
             "Precision-crafted felt components for industrial and creative use",
-        image: "/assets/categories img/Felt Components.png",
+        image: "./assets/categories img/Felt Components.png",
     },
     {
         id: "felt-rollers-tubes",
         name: "Felt Rollers & Tubes",
         description:
             "High-performance felt rollers and tubes designed for diverse uses",
-        image: "/assets/categories img/Felt Roller & Tubes.png",
+        image: "./assets/categories img/Felt Roller & Tubes.png",
     },
     {
         id: "jewellery-polishing-felt",
         name: "Jewellery Polishing Felts",
         description:
             "Felt specially designed for polishing and maintaining jewelry items",
-        image: "/assets/categories img/Jewellery Polishing Felt.png",
+        image: "./assets/categories img/Jewellery Polishing Felt.png",
     },
     // Add more categories as needed
 ];
@@ -132,7 +132,7 @@ const accordionData = [
 const blogData = [
     {
         id: "blog-1",
-        image: "/assets/blog card/Pressed Wool Felt.png",
+        image: "./assets/blog card/Pressed Wool Felt.png",
         time: 5,
         category: "Technology",
         title: "Woolen Felts & Industrial Felts: The Perfect Blend of Tradition and Innovation",
@@ -141,7 +141,7 @@ const blogData = [
     },
     {
         id: "blog-2",
-        image: "/assets/blog card/Industrial Felt Manufacturing.png",
+        image: "./assets/blog card/Industrial Felt Manufacturing.png",
         time: 8,
         category: "Felt",
         title: "The Timeless Appeal of Woolen Felts: A Versatile and Sustainable Choice",
@@ -150,7 +150,7 @@ const blogData = [
     },
     {
         id: "blog-3",
-        image: "/assets/blog card/Felt Component for Industry.png",
+        image: "./assets/blog card/Felt Component for Industry.png",
         time: 6,
         category: "Design",
         title: "Wool Felt: Redefining Sustainability, Comfort, and Acoustics in Modern Interiors",
@@ -161,31 +161,31 @@ const blogData = [
 
 const blogPosts = [
     {
-        image: "/assets/blog carousel/1 Mixing.png",
+        image: "./assets/blog carousel/1 Mixing.png",
         title: "Mixing",
         description:
             "Fuelled felt consists solely of animal hairs or sheep wool that is also used to produce traditional wool felt. Animal hairs or sheep wool of various wool grades are combined to create a homogeneous mixture. These mixtures are then blown into bunkers or storage chambers and stored there.",
     },
     {
-        image: "/assets/blog carousel/2 Felting.png",
+        image: "./assets/blog carousel/2 Felting.png",
         title: "Felting",
         description:
             "The pre-processed fleece materials are felted in a felting machine in the presence of moisture, heat and pressure, and under the action of circular movements. The fibres become matted due to the intertwining of the overlapping scales on their surfaces. A coherent material is formed – this is felt!",
     },
     {
-        image: "/assets/blog carousel/3 Fulling.png",
+        image: "./assets/blog carousel/3 Fulling.png",
         title: "Fulling",
         description:
             "This is followed by the fulling step, with compression and hammering in various directions. The felted material is kneaded thoroughly here by passing it through a number of pairs of rollers that are operated under pressure. This continues the felting process. Here too, warm water is added in order to speed up the fulling process. Particular attention is paid to the thickness, width and length of the felt in this process step.",
     },
     {
-        image: "/assets/blog carousel/4 Natural Drying Process.png",
+        image: "./assets/blog carousel/4 Natural Drying Process.png",
         title: "Natural Drying Process",
         description:
             "The pre-processed fleece materials are felted in a felting machine in the presence of moisture, heat and pressure, and under the action of circular movements. The fibres become matted due to the intertwining of the overlapping scales on their surfaces. A coherent material is formed – this is felt!",
     },
     {
-        image: "/assets/blog carousel/5 Finishing & Despatch.png",
+        image: "./assets/blog carousel/5 Finishing & Despatch.png",
         title: "Finishing & Despatch",
         description:
             "After the fulling process is complete, the felt is again washed and spun, and then dried in drying rooms in sheet form or in drying furnaces in bale form. Drying can take up to several days in the case of very thick sheets (thicknesses above 100 mm). Depending on the client’s wishes, the felt can then be shaved, ground or ironed in a press to ensure a smooth surface finish.",
@@ -196,7 +196,7 @@ const dynBlog = [
     {
         id: "blog-1",
         title: "Woolen Felts & Industrial Felts: The Perfect Blend of Tradition and Innovation",
-        image: "/assets/blog card/Pressed Wool Felt.png", // update with your actual image path
+        image: "./assets/blog card/Pressed Wool Felt.png", // update with your actual image path
         excerpt:
             "Woolen felts have been a staple material for centuries, offering durability, flexibility, and eco-friendliness. In recent years, industrial felts have expanded their use across various sectors, enhancing manufacturing processes and product efficiency.",
         content: `
@@ -276,7 +276,7 @@ Contact us today to learn more!
     {
         id: "blog-2",
         title: "The Timeless Appeal of Woolen Felts: A Versatile and Sustainable Choice",
-        image: "/assets/blog card/Industrial Felt Manufacturing.png", // update with your actual image path
+        image: "./assets/blog card/Industrial Felt Manufacturing.png", // update with your actual image path
         excerpt:
             "Celebrated for their durability, sustainability, and versatility, woolen felts play a vital role in both fashion and industrial applications.",
         content: `
@@ -344,7 +344,7 @@ As consumer preferences shift towards sustainable materials, woolen felt stands 
     {
         id: "blog-3",
         title: "Wool Felt: Redefining Sustainability, Comfort, and Acoustics in Modern Interiors",
-        image: "/assets/blog card/Felt Component for Industry.png", // update with your actual image path
+        image: "./assets/blog card/Felt Component for Industry.png", // update with your actual image path
         excerpt:
             "Wool felt from Feline Fabrics: the perfect choice for sustainability, quality, and acoustics. If you are looking for sustainable and high-quality fabrics for your next project, wool felt from Feline Fabrics is an excellent choice.",
         content: `

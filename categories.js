@@ -2,7 +2,7 @@ const products = [
     {
         id: "industrial-felt",
         name: "Industrial Felt",
-        image: "/assets/categories img/Industrial Felt.png",
+        image: "./assets/categories img/Industrial Felt.png",
         description:
             "Industrial felt is known for its durability and versatility. Ideal for use in demanding industrial environments, our industrial felt products are designed to provide reliable performance in a range of applications. From machinery padding to filtration and insulation, industrial felt delivers long-lasting results.",
         specifications: {
@@ -40,7 +40,7 @@ const products = [
     {
         id: "engineering-felt",
         name: "Engineering Felt",
-        image: "/assets/categories img/Engineering Felt.png",
+        image: "./assets/categories img/Engineering Felt.png",
         description:
             "Engineering Felt refers to specialized felt materials used in industrial and engineering applications. This type of felt is typically made from natural wool, synthetic fibers (such as polyester, viscose), or a blend of both, and is manufactured through needling, pressing, or chemical treatments to achieve specific properties.",
         specifications: {
@@ -80,13 +80,13 @@ const products = [
     {
         id: "felt-rolls-sheets",
         name: "Wool Felts Rolls & Sheets",
-        image: "/assets/categories img/Pressed Wool Felt Rolls & Sheets.png",
+        image: "./assets/categories img/Pressed Wool Felt Rolls & Sheets.png",
         applicationIDs: [],
         subcategories: [
             {
                 id: "felts-rolls",
                 name: "Wool Felts Rolls",
-                image: "/assets/categories img/Wool Felts Rolls & Sheets Sub 1.png", // New subcategory image
+                image: "./assets/categories img/Wool Felts Rolls & Sheets Sub 1.png", // New subcategory image
                 description:
                     "Wool felt rolls are continuous sheets of compressed wool fibers, often sold in roll form for various applications. Wool felt is created through a process of matting, condensing, and pressing wool fibers together, rather than weaving them. It is known for its durability, density, and versatility.",
                 specifications: {
@@ -125,7 +125,7 @@ const products = [
             {
                 id: "felts-sheets",
                 name: "Wool Felts Sheets",
-                image: "/assets/categories img/Wool Felts Rolls & Sheets Sub 2.png", // New subcategory image
+                image: "./assets/categories img/Wool Felts Rolls & Sheets Sub 2.png", // New subcategory image
                 description:
                     "Wool felt is a fabric made from wool fibers that are pressed, matted, and condensed together to create a durable material. It's one of the oldest known textiles, and is used in many industries.",
                 specifications: {
@@ -168,7 +168,7 @@ const products = [
     {
         id: "carbonised-felt",
         name: "Carbonized Felt",
-        image: "/assets/categories img/Carbonized Felt.png",
+        image: "./assets/categories img/Carbonized Felt.png",
         description:
             "Carbonized felt is a type of high-performance felt made by treating organic or wool-based felt at high temperatures to remove impurities and enhance its thermal and electrical properties. It is commonly used in applications requiring high-temperature resistance, insulation, and chemical stability.",
         specifications: {
@@ -202,7 +202,7 @@ const products = [
     {
         id: "color-felt",
         name: "Color Felt",
-        image: "/assets/categories img/Carbonized Felt.png",
+        image: "./assets/categories img/Carbonized Felt.png",
         description:
             "Colored wool felt is a soft, dense textile made from natural wool fibers that have been matted and pressed together. It is available in a wide range of colors and is commonly used for crafts, sewing projects, appliqué, toy-making, and home decor. Wool felt is known for its durability, non-fraying edges, and slightly fuzzy texture.",
         specifications: {
@@ -241,7 +241,7 @@ const products = [
     {
         id: "felt-wheels",
         name: "Felt Wheels",
-        image: "/assets/categories img/Felt Wheels.png",
+        image: "./assets/categories img/Felt Wheels.png",
         description:
             "Felt wheels are precision-engineered polishing and buffing tools made from compressed wool or synthetic felt. These wheels are widely used for polishing, buffing, deburring, and finishing a variety of materials, including metal, glass, stone, wood, and plastic. Felt wheels hold polishing compounds effectively, providing uniform and consistent surface finishing.",
         specifications: {
@@ -279,7 +279,7 @@ const products = [
     {
         id: "needle-punch-felt",
         name: "Non-Woven Needle Punch Felt",
-        image: "/assets/categories img/Needle Punch Felt.png",
+        image: "./assets/categories img/Needle Punch Felt.png",
         description:
             "Non-woven needle punch felt is a durable fabric created by mechanically interlocking fibers using a needling process, rather than weaving or knitting. This technique enhances strength, durability, and versatility, making it suitable for filtration, insulation, padding, and industrial applications.",
         specifications: {
@@ -315,13 +315,13 @@ const products = [
     {
         id: "polishing-felt",
         name: "Polishing felt",
-        image: "/assets/categories img/Polishing Felt.png",
+        image: "./assets/categories img/Polishing Felt.png",
         applicationIDs: [],
         subcategories: [
             {
                 id: "square-edge-felt",
                 name: "Square Edge Felt Wheels & Rings",
-                image: "/assets/categories img/Polishing felt Sub 1(Square Edge Felt).png", // New subcategory image
+                image: "./assets/categories img/Polishing felt Sub 1(Square Edge Felt).png", // New subcategory image
                 description:
                     "Square edge felt wheels and rings are specialized polishing tools with a sharp, straight edge rather than the typical rounded edge found in standard felt wheels. These tools are typically made from high-density wool or synthetic fibers and are used in a variety of applications that require precise, sharp polishing or deburring of surfaces. The square edge provides greater contact area and control for detailed polishing tasks, especially in intricate areas of the workpiece.",
                 specifications: {
@@ -354,7 +354,7 @@ const products = [
             {
                 id: "mounted-felt-bobs",
                 name: "Mounted Felt Bobs",
-                image: "/assets/categories img/Polishing felt Sub 2(Mounted Felt Bobs).png", // New subcategory image
+                image: "./assets/categories img/Polishing felt Sub 2(Mounted Felt Bobs).png", // New subcategory image
                 description:
                     "Mounted felt bobs are small, precision polishing tools designed for use in rotary tools like Dremel, flex shafts, or high-speed rotary machines. These tools consist of a felt head that is mounted on a mandrel or shaft, making them ideal for detailed polishing, cleaning, and deburring tasks. Mounted felt bobs come in various sizes, shapes, and hardness levels to suit different types of workpieces, such as metal, glass, jewelry, or wood.",
                 specifications: {
@@ -389,7 +389,7 @@ const products = [
             {
                 id: "unmounted-felt-bobs",
                 name: "Un-mounted Felt Bobs",
-                image: "/assets/categories img/Polishing felt Sub 3(Un-mounted Felt Bobs).png", // New subcategory image
+                image: "./assets/categories img/Polishing felt Sub 3(Un-mounted Felt Bobs).png", // New subcategory image
                 description:
                     "Un-mounted felt bobs are individual felt polishing heads without a mandrel or shaft. These felt heads are typically used in polishing applications where they can be mounted on custom or specialized shafts or in rotary tools with adapters. Un-mounted felt bobs come in a variety of shapes, sizes, and hardness levels, and are commonly used for detailed polishing, deburring, and fine finishing on metal, glass, jewelry, and other materials.",
                 specifications: {
@@ -421,7 +421,7 @@ const products = [
             {
                 id: "felt-cones",
                 name: "Felt Cones",
-                image: "/assets/categories img/Polishing felt Sub 4(Felt Cones).png", // New subcategory image
+                image: "./assets/categories img/Polishing felt Sub 4(Felt Cones).png", // New subcategory image
                 description:
                     "Felt cones are a type of polishing tool that feature a cone-shaped felt head. These tools are typically used for precision polishing, deburring, and cleaning in narrow or conical spaces. Felt cones are particularly useful in applications where controlled polishing is needed on edges, grooves, or small recesses. They are commonly mounted on rotary tools, such as Dremel or flex shafts, and are available in various sizes, hardnesses, and materials.",
                 specifications: {
@@ -453,7 +453,7 @@ const products = [
             {
                 id: "felt-discs",
                 name: "Felt Discs",
-                image: "/assets/categories img/Polishing felt Sub 5(Felt Discs).png", // New subcategory image
+                image: "./assets/categories img/Polishing felt Sub 5(Felt Discs).png", // New subcategory image
                 description:
                     "Felt discs are circular pieces of felt, often used in polishing, buffing, and finishing tasks. They come in a variety of sizes, hardness levels, and materials, making them highly versatile for different polishing applications. Felt discs are commonly mounted on rotary tools, such as Dremel, flex shafts, and other machines, to achieve fine finishes on materials like metal, wood, glass, plastics, and stone.",
                 specifications: {
@@ -485,7 +485,7 @@ const products = [
             {
                 id: "felt-polishing-kits",
                 name: "Felt Polishing Kits",
-                image: "/assets/categories img/Polishing felt Sub 6(Felt Polishing Kits).png", // New subcategory image
+                image: "./assets/categories img/Polishing felt Sub 6(Felt Polishing Kits).png", // New subcategory image
                 description:
                     "Felt polishing kits are comprehensive sets that include various types of felt polishing tools (such as discs, cones, bobs, wheels, and felts) along with polishing compounds. These kits are designed to provide everything needed for polishing, buffing, and finishing a wide range of materials, including metal, glass, wood, and stone. They are commonly used in industries like jewelry making, automotive detailing, woodworking, and crafting.",
                 specifications: {
@@ -518,7 +518,7 @@ const products = [
     {
         id: "felt-cords",
         name: "Felt Cords",
-        image: "/assets/categories img/Felt Cord.png",
+        image: "./assets/categories img/Felt Cord.png",
         description:
             "Felt cords are versatile, durable, and flexible components made from high-quality wool or synthetic fibers. They are used for sealing, padding, vibration dampening, and decorative applications across various industries.",
         specifications: {
@@ -548,7 +548,7 @@ const products = [
     {
         id: "felt-components",
         name: "Felt Cut Parts",
-        image: "/assets/categories img/Felt Components.png",
+        image: "./assets/categories img/Felt Components.png",
         description:
             "Felt cords are versatile, durable, and flexible components made from high-quality wool or synthetic fibers. They are used for sealing, padding, vibration dampening, and decorative applications across various industries.",
         specifications: {
@@ -587,7 +587,7 @@ const products = [
     {
         id: "felt-rollers-tubes",
         name: "Felt Rollers & Tubes",
-        image: "/assets/categories img/Felt Roller & Tubes.png",
+        image: "./assets/categories img/Felt Roller & Tubes.png",
         description:
             "Felt rollers and tubes are cylindrical components made from high-quality felt, designed for industrial and mechanical uses. They provide cushioning, polishing, and thermal insulation while ensuring durability and performance in demanding applications.",
         specifications: {
@@ -617,7 +617,7 @@ const products = [
     {
         id: "jewellery-polishing-felt",
         name: "Jewelry Polishing Felts",
-        image: "/assets/categories img/Jewellery Polishing Felt.png",
+        image: "./assets/categories img/Jewellery Polishing Felt.png",
         description:
             "Jewelry polishing felts are specialized tools used to enhance the shine, finish, and smoothness of jewelry pieces. These felts are typically made from high-density wool or synthetic fibers and are commonly used with polishing compounds or pastes. The needled or compressed structure allows them to hold the polishing compounds well, providing an even and fine finish on metals like gold, silver, platinum, and other precious materials.",
         specifications: {
@@ -670,98 +670,98 @@ const products = [
 const applicationCards = [
     {
         id: 1,
-        image: "/assets/categories img/Application Cards/Seals & Gaskets.jpeg",
+        image: "./assets/categories img/Application Cards/Seals & Gaskets.jpeg",
         title: "Seals & Gaskets",
         description:
             "Used for creating tight seals in machinery, automotive parts, and equipment to prevent leaks and improve efficiency",
     },
     {
         id: 2,
-        image: "/assets/categories img/Application Cards/Noise & Vibration Dampening.jpeg",
+        image: "./assets/categories img/Application Cards/Noise & Vibration Dampening.jpeg",
         title: "Noise & Vibration Dampening",
         description:
             "Ideal for soundproofing and reducing vibrations in automotive, machinery, and industrial equipment",
     },
     {
         id: 3,
-        image: "/assets/categories img/Application Cards/Polishing and buffing.jpeg",
+        image: "./assets/categories img/Application Cards/Polishing and buffing.jpeg",
         title: "Polishing and buffing",
         description:
             "Felt is ideal for providing a smooth finish on metals, glass, and other surfaces. Its soft yet durable texture ensures precision without causing scratches",
     },
     {
         id: 4,
-        image: "/assets/categories img/Application Cards/Filtration.png",
+        image: "./assets/categories img/Application Cards/Filtration.png",
         title: "Filtration",
         description:
             "Felt is widely used in filtration systems due to its ability to trap fine particles and absorb liquids efficiently",
     },
     {
         id: 5,
-        image: "/assets/categories img/Application Cards/Water Resistance.png",
+        image: "./assets/categories img/Application Cards/Water Resistance.png",
         title: "Water Resistance",
         description:
             "Specially treated felt repels water, making it ideal for outdoor and industrial uses where moisture resistance is crucial",
     },
     {
         id: 6,
-        image: "/assets/categories img/Application Cards/Laboratory.png",
+        image: "./assets/categories img/Application Cards/Laboratory.png",
         title: "Laboratory",
         description:
             "Felt provides thermal and noise insulation in labs, ensuring precise and controlled experimental environments",
     },
     {
         id: 7,
-        image: "/assets/categories img/Application Cards/Heat Insulation.png",
+        image: "./assets/categories img/Application Cards/Heat Insulation.png",
         title: "Heat Insulation",
         description:
             "High-density felt serves as a thermal insulator, ideal for industrial and household applications requiring heat resistance",
     },
     {
         id: 8,
-        image: "/assets/categories img/Application Cards/Sewing & Embroidery.png",
+        image: "./assets/categories img/Application Cards/Sewing & Embroidery.png",
         title: "Sewing & Embroidery",
         description:
             "Felt adds texture and vibrancy to sewing and embroidery projects, offering a flexible and easy-to-stitch material",
     },
     {
         id: 9,
-        image: "/assets/categories img/Application Cards/Educational Uses.png",
+        image: "./assets/categories img/Application Cards/Educational Uses.png",
         title: "Educational Uses",
         description:
             "Felt provides thermal and noise insulation in labs, ensuring precise and controlled experimental environments",
     },
     {
         id: 10,
-        image: "/assets/categories img/Application Cards/Home Decor.png",
+        image: "./assets/categories img/Application Cards/Home Decor.png",
         title: "Home Decor",
         description:
             "Used in table runners, coasters, and wall art, felt enhances any space with its soft texture and customizable designs",
     },
     {
         id: 11,
-        image: "/assets/categories img/Application Cards/Fashion & Accessories.png",
+        image: "./assets/categories img/Application Cards/Fashion & Accessories.png",
         title: "Fashion & Accessories",
         description:
             "Felt is used to make hats, bags, and other fashion accessories, combining style and functional",
     },
     {
         id: 12,
-        image: "/assets/categories img/Application Cards/Jewellery & Watch Polishing.png",
+        image: "./assets/categories img/Application Cards/Jewellery & Watch Polishing.png",
         title: "Jewellery & Watch Polishing",
         description:
             "Felt tools are perfect for jewelry and watch polishing, restoring shine and removing tarnish",
     },
     {
         id: 13,
-        image: "/assets/categories img/Application Cards/Woodworking Finishing.png",
+        image: "./assets/categories img/Application Cards/Woodworking Finishing.png",
         title: "Woodworking Finishing",
         description:
             "Felt is widely used in woodworking and furniture finishing to achieve smooth, scratch-free surfaces",
     },
     {
         id: 14,
-        image: "/assets/categories img/Application Cards/Stone & Marble Polishing.png",
+        image: "./assets/categories img/Application Cards/Stone & Marble Polishing.png",
         title: "Stone & Marble Polishing",
         description:
             "Felt is used for stone and marble polishing to achieve a smooth, glossy finish",
