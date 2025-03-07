@@ -1124,7 +1124,7 @@ document.addEventListener("DOMContentLoaded", () => {
     whatsappBtn.className = "whatsapp-float";
 
     // Insert inline SVG code for the WhatsApp icon
-    whatsappBtn.innerHTML = `<img src="./assets/whatsapp.svg" alt="WhatsApp icon" class="whatsapp-icon" />`;
+    whatsappBtn.innerHTML = `<img src="./assets/WhatsApp.svg" alt="WhatsApp icon" class="whatsapp-icon" />`;
 
     document.body.appendChild(whatsappBtn);
 
