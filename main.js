@@ -1113,3 +1113,78 @@ document.addEventListener("DOMContentLoaded", () => {
             });
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Create the floating WhatsApp button anchor element
+    const whatsappBtn = document.createElement("a");
+    whatsappBtn.href =
+        "https://api.whatsapp.com/send?phone=7039600205&text=Hello%2C%20I%20would%20like%20to%20chat%20about%20your%20services!";
+    whatsappBtn.target = "_blank";
+    whatsappBtn.setAttribute("aria-label", "Chat with us on WhatsApp");
+    whatsappBtn.className = "whatsapp-float";
+
+    // Insert inline SVG code for the WhatsApp icon
+    whatsappBtn.innerHTML = `<img src="./assets/whatsapp.svg" alt="WhatsApp icon" class="whatsapp-icon" />`;
+
+    document.body.appendChild(whatsappBtn);
+
+    // Create and inject CSS styles for the floating button
+    const style = document.createElement("style");
+    style.innerHTML = `
+    .whatsapp-float {
+      position: fixed;
+      width: 48px;
+      height: 48px;
+      bottom: 40px;
+      right: 40px;
+      background-color:rgb(255, 255, 255);
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+    .whatsapp-float:hover {
+      background-color:rgb(255, 255, 255);
+      transform: scale(1.1);
+    }
+    .whatsapp-icon {
+      width: 32px;
+      height: 32px;
+    }
+
+    /* Tablet styles */
+    @media (max-width: 1024px) {
+      .whatsapp-float {
+        width: 48px;
+        height: 48px;
+        bottom: 30px;
+        right: 30px;
+      }
+      .whatsapp-icon {
+        width: 32px;
+        height: 32px;
+      }
+    }
+    
+    /* Mobile styles */
+    @media (max-width: 768px) {
+      .whatsapp-float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+      }
+      .whatsapp-icon {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  `;
+    document.head.appendChild(style);
+});
