@@ -1126,8 +1126,11 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     // Create the floating WhatsApp button anchor element
     const whatsappBtn = document.createElement("a");
-    whatsappBtn.href =
-        "https://api.whatsapp.com/send?phone=7039600205&text=Hello%2C%20I%20would%20like%20to%20chat%20about%20your%20services!";
+    whatsappBtn.href = whatsappBtn.href =
+        "https://api.whatsapp.com/send?phone=7039600205&text=Hi%20Team%20Bhavani%20Corporation%2C%0A" +
+        "I%20visited%20your%20website%20and%20I%E2%80%99m%20interested%20in%20your%20products.%0A" +
+        "I%20have%20an%20inquiry%20regarding%20your%20products/services.%0A" +
+        "Please%20let%20me%20know%20how%20I%20can%20proceed.";
     whatsappBtn.target = "_blank";
     whatsappBtn.setAttribute("aria-label", "Chat with us on WhatsApp");
     whatsappBtn.className = "whatsapp-float";
