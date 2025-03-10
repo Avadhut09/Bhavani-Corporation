@@ -202,7 +202,7 @@ const products = [
     {
         id: "color-felt",
         name: "Color Felt",
-        image: "./assets/categories img/Carbonized Felt.png",
+        image: "./assets/categories img/Color Felt.png",
         description:
             "Colored wool felt is a soft, dense textile made from natural wool fibers that have been matted and pressed together. It is available in a wide range of colors and is commonly used for crafts, sewing projects, appliqué, toy-making, and home decor. Wool felt is known for its durability, non-fraying edges, and slightly fuzzy texture.",
         specifications: {
@@ -670,21 +670,21 @@ const products = [
 const applicationCards = [
     {
         id: 1,
-        image: "./assets/categories img/Application Cards/Seals & Gaskets.jpeg",
+        image: "./assets/categories img/Application Cards/Seals & Gaskets.png",
         title: "Seals & Gaskets",
         description:
             "Used for creating tight seals in machinery, automotive parts, and equipment to prevent leaks and improve efficiency",
     },
     {
         id: 2,
-        image: "./assets/categories img/Application Cards/Noise & Vibration Dampening.jpeg",
+        image: "./assets/categories img/Application Cards/Noise & Vibration Dampening.png",
         title: "Noise & Vibration Dampening",
         description:
             "Ideal for soundproofing and reducing vibrations in automotive, machinery, and industrial equipment",
     },
     {
         id: 3,
-        image: "./assets/categories img/Application Cards/Polishing and buffing.jpeg",
+        image: "./assets/categories img/Application Cards/Polishing and buffing.png",
         title: "Polishing and buffing",
         description:
             "Felt is ideal for providing a smooth finish on metals, glass, and other surfaces. Its soft yet durable texture ensures precision without causing scratches",

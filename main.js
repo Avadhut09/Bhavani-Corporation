@@ -15,10 +15,10 @@ const categories = [
     },
     {
         id: "felt-rolls-sheets",
-        name: "Pressed Wool Felt Rolls & Sheets",
+        name: "Wool Felt Rolls & Sheets",
         description:
             "Premium, tightly compressed wool felt available in rolls and sheets",
-        image: "./assets/categories img/Pressed Wool Felt Rolls & Sheets.png",
+        image: "./assets/categories img/Wool Felts Rolls & Sheets Sub 1.png",
     },
     {
         id: "carbonised-felt",
@@ -1133,8 +1133,8 @@ document.addEventListener("DOMContentLoaded", () => {
     style.innerHTML = `
     .whatsapp-float {
       position: fixed;
-      width: 48px;
-      height: 48px;
+      width: 64px;
+      height: 64px;
       bottom: 40px;
       right: 40px;
       background-color:rgb(255, 255, 255);
@@ -1154,37 +1154,11 @@ document.addEventListener("DOMContentLoaded", () => {
       transform: scale(1.1);
     }
     .whatsapp-icon {
-      width: 32px;
-      height: 32px;
-    }
-
-    /* Tablet styles */
-    @media (max-width: 1024px) {
-      .whatsapp-float {
-        width: 48px;
-        height: 48px;
-        bottom: 30px;
-        right: 30px;
-      }
-      .whatsapp-icon {
-        width: 32px;
-        height: 32px;
-      }
+      width: 42px;
+      height: 42px;
     }
     
-    /* Mobile styles */
-    @media (max-width: 768px) {
-      .whatsapp-float {
-        width: 40px;
-        height: 40px;
-        bottom: 20px;
-        right: 10px;
-      }
-      .whatsapp-icon {
-        width: 24px;
-        height: 24px;
-      }
-    }
+    
   `;
     document.head.appendChild(style);
 });
