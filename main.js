@@ -874,17 +874,26 @@ if (blogContainer) {
 function initGetDirections() {
     document.querySelectorAll(".get-directions-btn").forEach((button) => {
         button.addEventListener("click", function () {
-            const address = this.previousElementSibling.textContent;
-            const formattedAddress = address
-                .replace(/\n/g, ", ")
-                .replace(/\s+/g, "+")
-                .trim();
-            window.open(
-                `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                    formattedAddress
-                )}`,
-                "_blank"
-            );
+            // Check if this is the specific button
+            if (this.classList.contains("specific-location")) {
+                window.open(
+                    "https://maps.app.goo.gl/h5chGpsREsY6CtJs8?g_st=aw",
+                    "_blank"
+                );
+            } else {
+                // Original functionality for other buttons
+                const address = this.previousElementSibling.textContent;
+                const formattedAddress = address
+                    .replace(/\n/g, ", ")
+                    .replace(/\s+/g, "+")
+                    .trim();
+                window.open(
+                    `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                        formattedAddress
+                    )}`,
+                    "_blank"
+                );
+            }
         });
     });
 }
