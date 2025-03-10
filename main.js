@@ -15,10 +15,10 @@ const categories = [
     },
     {
         id: "felt-rolls-sheets",
-        name: "Pressed Wool Felt Rolls & Sheets",
+        name: "Wool Felt Rolls & Sheets",
         description:
             "Premium, tightly compressed wool felt available in rolls and sheets",
-        image: "./assets/categories img/Pressed Wool Felt Rolls & Sheets.png",
+        image: "./assets/categories img/Wool Felts Rolls & Sheets Sub 1.png",
     },
     {
         id: "carbonised-felt",
@@ -874,17 +874,26 @@ if (blogContainer) {
 function initGetDirections() {
     document.querySelectorAll(".get-directions-btn").forEach((button) => {
         button.addEventListener("click", function () {
-            const address = this.previousElementSibling.textContent;
-            const formattedAddress = address
-                .replace(/\n/g, ", ")
-                .replace(/\s+/g, "+")
-                .trim();
-            window.open(
-                `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                    formattedAddress
-                )}`,
-                "_blank"
-            );
+            // Check if this is the specific button
+            if (this.classList.contains("specific-location")) {
+                window.open(
+                    "https://maps.app.goo.gl/h5chGpsREsY6CtJs8?g_st=aw",
+                    "_blank"
+                );
+            } else {
+                // Original functionality for other buttons
+                const address = this.previousElementSibling.textContent;
+                const formattedAddress = address
+                    .replace(/\n/g, ", ")
+                    .replace(/\s+/g, "+")
+                    .trim();
+                window.open(
+                    `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                        formattedAddress
+                    )}`,
+                    "_blank"
+                );
+            }
         });
     });
 }
@@ -1097,8 +1106,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         console.log("Template Params:", templateParams);
 
-        const serviceID = "service_9mpflge";
-        const templateID = "template_znl9vv3";
+        const serviceID = "service_40hdqnt";
+        const templateID = "template_appewqk";
 
         emailjs
             .send(serviceID, templateID, templateParams)
@@ -1133,8 +1142,8 @@ document.addEventListener("DOMContentLoaded", () => {
     style.innerHTML = `
     .whatsapp-float {
       position: fixed;
-      width: 48px;
-      height: 48px;
+      width: 64px;
+      height: 64px;
       bottom: 40px;
       right: 40px;
       background-color:rgb(255, 255, 255);
@@ -1154,37 +1163,11 @@ document.addEventListener("DOMContentLoaded", () => {
       transform: scale(1.1);
     }
     .whatsapp-icon {
-      width: 32px;
-      height: 32px;
-    }
-
-    /* Tablet styles */
-    @media (max-width: 1024px) {
-      .whatsapp-float {
-        width: 48px;
-        height: 48px;
-        bottom: 30px;
-        right: 30px;
-      }
-      .whatsapp-icon {
-        width: 32px;
-        height: 32px;
-      }
+      width: 42px;
+      height: 42px;
     }
     
-    /* Mobile styles */
-    @media (max-width: 768px) {
-      .whatsapp-float {
-        width: 40px;
-        height: 40px;
-        bottom: 20px;
-        right: 10px;
-      }
-      .whatsapp-icon {
-        width: 24px;
-        height: 24px;
-      }
-    }
+    
   `;
     document.head.appendChild(style);
 });
