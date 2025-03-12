@@ -1106,8 +1106,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         console.log("Template Params:", templateParams);
 
-        const serviceID = "template_znl9vv3";
-        const templateID = "service_9mpflge";
+        const serviceID = "service_9mpflge";
+        const templateID = "template_znl9vv3";
 
         emailjs
             .send(serviceID, templateID, templateParams)
